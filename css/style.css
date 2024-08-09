@@ -566,22 +566,6 @@ video {
   display: flex;
 }
 
-.h-4\/5 {
-  height: 80%;
-}
-
-.h-\[430px\] {
-  height: 430px;
-}
-
-.h-lvh {
-  height: 100lvh;
-}
-
-.h-full {
-  height: 100%;
-}
-
 .w-11\/12 {
   width: 91.666667%;
 }
@@ -606,10 +590,6 @@ video {
   flex-direction: column;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
 .items-center {
   align-items: center;
 }
@@ -629,12 +609,6 @@ video {
 .gap-x-5 {
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
-}
-
-.space-y-9 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
 }
 
 .border {
@@ -664,25 +638,12 @@ video {
   padding: 0.75rem;
 }
 
-.px-\[150px\] {
-  padding-left: 150px;
-  padding-right: 150px;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
 .text-start {
   text-align: start;
 }
 
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-text {
-  font-family: Quicksand, sans-serif;
 }
 
 .text-2xl {
@@ -723,10 +684,6 @@ video {
     flex-direction: row;
   }
 
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-
   .sm\:pt-10 {
     padding-top: 2.5rem;
   }
@@ -737,24 +694,8 @@ video {
     display: flex;
   }
 
-  .md\:h-\[360px\] {
-    height: 360px;
-  }
-
-  .md\:h-\[60px\] {
-    height: 60px;
-  }
-
   .md\:h-\[300px\] {
     height: 300px;
-  }
-
-  .md\:h-3\/5 {
-    height: 60%;
-  }
-
-  .md\:h-2\/5 {
-    height: 40%;
   }
 
   .md\:h-full {
@@ -778,33 +719,12 @@ video {
 }
 
 @media (min-width: 1200px) {
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:h-4\/5 {
     height: 80%;
   }
 
   .lg\:h-lvh {
     height: 100lvh;
-  }
-
-  .lg\:h-full {
-    height: 100%;
-  }
-
-  .lg\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
-  .lg\:h-auto {
-    height: auto;
-  }
-
-  .lg\:max-h-full {
-    max-height: 100%;
   }
 
   .lg\:space-y-9 > :not([hidden]) ~ :not([hidden]) {
@@ -821,10 +741,6 @@ video {
   .lg\:pt-20 {
     padding-top: 5rem;
   }
-
-  .lg\:pb-24 {
-    padding-bottom: 6rem;
-  }
 }
 
 @media (min-width: 1440px) {
@@ -832,17 +748,7 @@ video {
     height: 430px;
   }
 
-  .xl\:h-lvh {
-    height: 100lvh;
-  }
-
-  .xl\:h-full {
-    height: 100%;
-  }
-
   .xl\:max-h-full {
     max-height: 100%;
   }
 }
-
-
